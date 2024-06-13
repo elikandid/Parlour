@@ -137,7 +137,7 @@ nav {
 }
 
 .social-icon-container i {
-    color:#FFA188;
+    color: #FFA188;
 }
 
 
@@ -216,7 +216,7 @@ nav {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 30px; 
+    padding: 30px;
     color: white;
 }
 
@@ -229,10 +229,12 @@ nav {
     height: 40px;
     width: 40px;
 }
+
 #bathrobe {
     height: 40px;
     width: 40px;
 }
+
 #stones {
     height: 40px;
     width: 40px;
@@ -243,9 +245,76 @@ nav {
     height: 100vh;
     width: 100vw;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10vh;
 }
 
 #testimonials-top {
     display: flex;
     flex-direction: column;
+}
+
+#testimonials-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+}
+
+.mike {
+    width: 30vw;
+    height: 40vh;
+    background-color: #ffece7;
+    padding: 20px;
+}
+
+.testimonials-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.testimonial-img-and-pic {
+    display: flex;
+    column-gap: 1vw;
+}
+
+#footer {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../assets/images/heroo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    row-gap: 20px;
+}
+
+#footer p:first-child {
+    font-size: 40px;
+}
+
+#heart-icon {
+    color: red;
+}
+
+#foot-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 20px;
+    column-gap: 20px;
+}
+
+hr {
+    width: 100vw;
+    color: rgba(202, 178, 178, 0.4);
 }
