@@ -2,6 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/heroo.jpg);
@@ -126,6 +134,7 @@ nav {
 
 #about-image-container {
     display: flex;
+    column-gap: 1vw;
     justify-content: right;
     align-items:flex-start;
     top: 10%;
@@ -134,20 +143,29 @@ nav {
 
 }
 
+
 .social-icon-container {
     width: 50px;
     height: 50px;
     background-color: #FFECE7;
     border: none;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
+
+.social-icon-container a{
+    text-decoration: none;
+    
+}
+    
+
+
 
 .social-icon-container i  {
     color: #FFA188; 
-    text-decoration: none;
-     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #last-review-section{
@@ -236,6 +254,10 @@ nav {
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 30px;
     color: white;
+}
+
+.feature-items:hover{
+    background-color: #f7f6f650;
 }
 
 #towel {
