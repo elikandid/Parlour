@@ -97,12 +97,16 @@ nav {
     width: 100vw;
     background-color: #ffffff;
     position: relative;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
 }
 
 #about-text {
     position: absolute;
     top: 20%;
     left: 10%;
+    margin-right: -200px;
 }
 
 #about-text h2 {
