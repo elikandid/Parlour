@@ -103,11 +103,14 @@ nav {
 
 #about-social-icons {
     display: flex;
+    align-self: center;
 }
 
 #about-text p:first-child {
     font-weight: bold;
     color: #364D59;
+    font-size: 700px;
+    
 }
 
 #about-text p:last-child {
@@ -122,8 +125,11 @@ nav {
 }
 
 #about-image-container {
-    position: absolute;
-    top: 10%;
+    /* position: absolute; */
+    display: flex;
+    justify-content: right;
+    /* align-items: flex-start; */
+    top: 50px;
     right: 10%;
 
 }
@@ -298,7 +304,7 @@ nav {
 }
 
 #footer p:first-child {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #heart-icon {
