@@ -125,12 +125,12 @@ nav {
 }
 
 #about-image-container {
-    /* position: absolute; */
     display: flex;
     justify-content: right;
-    /* align-items: flex-start; */
-    top: 50px;
+    align-items:flex-start;
+    top: 10%;
     right: 10%;
+   margin-top: 100px;
 
 }
 
@@ -142,8 +142,20 @@ nav {
     border-radius: 50%;
 }
 
-.social-icon-container i {
-    color: #FFA188;
+.social-icon-container i  {
+    color: #FFA188; 
+    text-decoration: none;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last-review-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
 }
 
 
@@ -301,6 +313,7 @@ nav {
     justify-content: center;
     color: white;
     row-gap: 20px;
+    margin-top: 200px;
 }
 
 #footer p:first-child {
